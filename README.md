@@ -6,6 +6,8 @@ A quick way to run up MySQL 5.7 with minimal CentOS7
 
 Sets up 64-bit CentOS 7.0 base box, minimal install. Uses a bash script to provision MySQL 5.7.18.
 
+MySQL 5.7.7 or higher is required by Laravel 5.4 if you want to avoid the default string length issue here https://laravel.com/docs/master/migrations#creating-indexes
+
 Tested using Vagrant 1.8.7 on virtualbox 5.1.22
 
 ## Installation
